@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+nav a:hover {
+    border: 1px solid #fee3de;
+	color: #fee3de;
+    background-color: #047681;
+}
+a {
+    border-radius: 10px;
+    color: #047681;
+}
+tr:hover {
+    background-color: #e6f7f8;
+}
+table, th, td {
+    border: 1px solid #047681;
+    border-collapse: collapse;
+}
+.good {
+    text-shadow: 0px 0px 2px purple;
+    color: black;
+	line-height: 15px;
+}
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 20px double #00bcd4;
+	overflow-x: auto;
+}

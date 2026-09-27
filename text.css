@@ -1,0 +1,35 @@
+.wowow {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+	transform: translate: (0px, 75px);
+}
+.wowow p {
+    margin: 5px 0;
+}
+nav a:hover {
+    border: 1px solid #fee3de;
+	color: #fee3de;
+    background-color: #047681;
+	text-shadow: 0px 0px 3px #047681;
+	font-size: 100%
+}
+.wowwow img {
+	text-align: center;
+}
+a {
+    border-radius: 10px;
+    color: #047681;
+	text-shadow: 0px 0px 3px blue;
+}
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 20px double #00bcd4;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

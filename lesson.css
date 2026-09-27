@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 20px double #00bcd4;
+}
+
+a {
+    text-shadow: 0px 0px 3px blue;
+    border-radius: 10px;
+    color: #047681;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    border: 1px solid #fee3de;
+    color: #fee3de;
+    background-color: #047681;
+}
+.schedule-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+.a img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.avada-kedabra {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.eleviosa {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+}

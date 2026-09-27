@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.tit {
+	text-shadow: 0px 0px 2px;
+	transform: translate(0px, -70px);
+}
+.tit h2, h3 {
+	 font-family: cursive;
+	color: purple !important;
+	font-weight: bold;
+}
+nav a:hover{
+	border: 1px solid #fee3de;
+	color: #fee3de;
+	background-color: #047681;
+}
+a {
+    border-radius: 10px;
+    color: #047681;
+	text-shadow: 0px 0px 3px blue;
+}
+.dickpick a {
+	text-shadow: 0px 0px 3px blue;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    
+    z-index: 999;
+}
+body {
+    background-image: url("school/images/");
+}
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 20px double #00bcd4;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
