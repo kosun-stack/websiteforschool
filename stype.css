@@ -4,6 +4,8 @@
 .tit {
 	text-shadow: 0px 0px 2px;
 	transform: translate(0px, -70px);
+    margin-top: 20px;
+    text-align: center;
 }
 .tit h2, .tit h3 {
 	 font-family: cursive;
@@ -21,12 +23,10 @@ a {
 	text-shadow: 0px 0px 3px blue;
 }
 .dickpick a {
-	text-shadow: 0px 0px 3px blue;
-    position: relative;
-    top: -10px;
-    left: 20px;
-    
-    z-index: 999;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 3px blue;
+    z-index: 999px;
 }
 body {
     background-image: url("school/images/");
@@ -51,7 +51,3 @@ img {
         border-width: 5px;
     }
 }
-.tit {
-        transform: none;
-        margin-top: -20px;
-    }
