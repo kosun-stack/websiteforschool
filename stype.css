@@ -49,5 +49,7 @@ img {
         padding: 10px;
         border-width: 5px;
         box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: auto;
     }
 }
