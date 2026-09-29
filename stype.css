@@ -5,7 +5,7 @@
 	text-shadow: 0px 0px 2px;
 	transform: translate(0px, -70px);
 }
-.tit h2, h3 {
+.tit h2, .tit h3 {
 	 font-family: cursive;
 	color: purple !important;
 	font-weight: bold;
@@ -45,11 +45,9 @@ img {
 }
 @media (max-width: 480px) {
     .container {
-        width: 90%;
+        width: 92%;
+        margin: 0 auto 0 8px;
         padding: 10px;
         border-width: 5px;
-        box-sizing: border-box;
-        margin-left: 10px;
-        margin-right: auto;
     }
 }
