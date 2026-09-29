@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .tit {
-	text-shadow: 0px 0px 2px;
+	text-shadow: 0px 0px 1px;
 	transform: translate(0px, -70px);
     margin-top: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ nav a:hover{
 a {
     border-radius: 10px;
     color: #047681;
-	text-shadow: 0px 0px 3px blue;
+	text-shadow: 0px 0px 2px blue;
 }
 .dickpick a {
     display: inline-block;
