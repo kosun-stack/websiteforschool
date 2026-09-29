@@ -24,9 +24,11 @@ a {
 }
 .dickpick a {
     display: inline-block;
-    margin-bottom: 10px;
+    position: relative;
+    z-index: 9999;
+    pointer-events: auto;
+    margin-bottom: 15px;
     text-shadow: 0px 0px 3px blue;
-    z-index: 999px;
 }
 body {
     background-image: url("school/images/");
