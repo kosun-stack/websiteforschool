@@ -51,3 +51,7 @@ img {
         border-width: 5px;
     }
 }
+.tit {
+        transform: none;
+        margin-top: -20px;
+    }
