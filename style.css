@@ -95,6 +95,7 @@ footer {
     margin: 15px auto;
     border-radius: 3px;
     display: inline-block;
+    text-shadow: 0px 0px 3px purple;
 }
 img {
   max-width: 100%;
