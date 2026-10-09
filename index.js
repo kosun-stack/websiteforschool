@@ -1,4 +1,11 @@
-var name = prompt("Ваше ім'я?", "");
+var name = sessionStorage.getItem("userName");
+
+if (!name) {
+    name = prompt("Ваше ім'я?", "");
+    if (name) {
+        sessionStorage.setItem("userName", name);
+    }
+}
 
 if (name) {
     alert("Прувет, " + name + "!");
