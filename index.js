@@ -18,3 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+function changeName() {
+    sessionStorage.removeItem("userName");
+    location.reload();
+}
