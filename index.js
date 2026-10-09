@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function changeName() {
-    sessionStorage.removeItem("userName");
-    location.reload();
+    var newName = prompt("Введіть нове ім'я:", sessionStorage.getItem("userName") || "");
+    if (newName) {
+        sessionStorage.setItem("userName", newName);
+        location.reload();
+    }
 }
