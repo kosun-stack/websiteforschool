@@ -1,7 +1,10 @@
-	var name = prompt("Ваше ім'я?", "");
+var name = prompt("Ваше ім'я?", "");
 
-alert("Прувет!" + name + "!");
+alert("Прувет, " + name + "!");
 
-    net.style.display = "block";
+net.style.display = "block";
 
-    alert(name + "! Ласкаво запрошую!");
+if (name) {
+    var title = document.getElementById("halo");
+    title.textContent = name + "! ласкаво просимо на офіційний сайт нашого класу!";
+}
