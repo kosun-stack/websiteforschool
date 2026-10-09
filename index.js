@@ -1,31 +1,30 @@
-var name = sessionStorage.getItem("userName");
-
-if (!name) {
-    name = prompt("Ваше ім'я?", "");
-    if (name) {
-        sessionStorage.setItem("userName", name);
-        alert("Прувет, " + name + "!");
+function updateTitle(userName) {
+    var title = document.getElementById("halo");
+    if (title && userName) {
+        title.textContent = userName + "! Ласкаво просимо на офіційний сайт нашого класу!";
     }
 }
-
 document.addEventListener("DOMContentLoaded", function() {
+    var name = sessionStorage.getItem("userName");
+    if (!name) {
+        name = prompt("Ваше ім'я?", "");
+        if (name) {
+            sessionStorage.setItem("userName", name);
+            alert("Прувет, " + name + "!");
+        }
+    }
+    updateTitle(name);
     var net = document.getElementById("net") || document.querySelector(".net");
     if (net) {
         net.style.display = "block";
     }
-
-    if (name) {
-        var title = document.getElementById("halo");
-        if (title) {
-            title.textContent = name + "! Ласкаво просимо на офіційний сайт нашого класу!";
-        }
-    }
 });
-
 function changeName() {
-    var newName = prompt("Введіть нове ім'я:", sessionStorage.getItem("userName") || "");
+    var currentName = sessionStorage.getItem("userName") || "";
+    var newName = prompt("Введіть нове ім'я:", currentName);
+    
     if (newName) {
         sessionStorage.setItem("userName", newName);
-        location.reload();
+        updateTitle(newName);
     }
 }
