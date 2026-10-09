@@ -1,19 +1,13 @@
 var name = sessionStorage.getItem("userName");
-
 if (!name) {
     name = prompt("Ваше ім'я?", "");
     if (name) {
         sessionStorage.setItem("userName", name);
+        alert("Прувет, " + name + "!");
     }
 }
-
-if (name) {
-    alert("Прувет, " + name + "!");
-} else {
-    alert("Прувет!");
-}
 document.addEventListener("DOMContentLoaded", function() {
-    var net = document.querySelector(".net") || document.getElementById("net");
+    var net = document.getElementById("net") || document.querySelector(".net");
     if (net) {
         net.style.display = "block";
     }
