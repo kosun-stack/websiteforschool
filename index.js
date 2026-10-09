@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (name) {
         var title = document.getElementById("halo");
         if (title) {
-            title.textContent = name + "! ласкаво просимо на офіційний сайт нашого класу!";
+            title.textContent = name + "! Ласкаво просимо на офіційний сайт нашого класу!";
         }
     }
 });
