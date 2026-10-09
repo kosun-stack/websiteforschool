@@ -1,4 +1,5 @@
 var name = sessionStorage.getItem("userName");
+
 if (!name) {
     name = prompt("Ваше ім'я?", "");
     if (name) {
@@ -6,11 +7,13 @@ if (!name) {
         alert("Прувет, " + name + "!");
     }
 }
+
 document.addEventListener("DOMContentLoaded", function() {
     var net = document.getElementById("net") || document.querySelector(".net");
     if (net) {
         net.style.display = "block";
     }
+
     if (name) {
         var title = document.getElementById("halo");
         if (title) {
@@ -18,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
 function changeName() {
     sessionStorage.removeItem("userName");
     location.reload();
