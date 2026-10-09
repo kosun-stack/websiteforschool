@@ -1,7 +1,7 @@
-alert("Прувет!");
+	var name = prompt("Ваше ім'я?", "");
 
-	var name = prompt("Звать як?", "");
+alert("Прувет!" + name + "!");
 
     net.style.display = "block";
 
-    alert( + name + "! Ласкаво запрошую на офіційний сайт нашого класу!");
+    alert(name + "! Ласкаво запрошую!");
